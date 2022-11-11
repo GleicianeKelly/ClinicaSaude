@@ -9,9 +9,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+
 @Entity
 @Table(name = "vacina")
 public class Vacina {
@@ -25,9 +23,31 @@ public class Vacina {
     @NotNull
     @NotEmpty
     private String marca;
-    
-    public Vacina(String nome, String marca){
+
+    public Vacina() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
         this.marca = marca;
     }
 }
