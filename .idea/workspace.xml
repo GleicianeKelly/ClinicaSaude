@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1528fde-0c18-4ee5-964d-df5dccf9ab56" name="Changes" comment="" />
+    <list default="true" id="b1528fde-0c18-4ee5-964d-df5dccf9ab56" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/apiConfig/ConfigSwagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/apiConfig/ConfigSwagger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/controller/vacinaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/controller/vacinaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/repository/vacinaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/repository/vacinaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/service/vacinaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/service/vacinaService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2GvaX1qlvz9JvyVWm7PVnatcBnM" />
   <component name="ProjectViewState">
@@ -16,7 +24,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/gleiciane.de.araujo/ClinicaSaude/msvacina"
+    "last_opened_file_path": "C:/Users/gleiciane.de.araujo/ClinicaSaude"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

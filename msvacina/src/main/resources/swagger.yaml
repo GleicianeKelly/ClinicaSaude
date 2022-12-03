@@ -37,6 +37,33 @@ paths:
           description: "Vacina não encontrada"
         500:
           description: "Erro interno"
+  /vacina:
+    post:
+      tags:
+        - "VacinaController"
+      summary: "Cadastrar vacina"
+      operationId: "save"
+      produces:
+        - application/json
+      description: "Esta operacao tem como objetivo cadastrar vacina"
+      parameters:
+        - in: "body"
+          name: "vacinaRequest"
+          required: true
+          description: "Cadastrar vacina"
+          schema:
+            $ref: "#/definitions/VacinaRequest"
+      responses:
+        201:
+          description: "create"
+        400:
+          description: "Consulta inválida"
+        401:
+          description: "Não foi possível credenciais para autenticação inválida"
+        404:
+          description: "Vacina não encontrada"
+        500:
+          description: "Erro interno"
 definitions:
   VacinaDTO:
     type: object
@@ -45,6 +72,18 @@ definitions:
         type: integer
         format: int64
         description: "Identificador da vacina"
+      nome:
+        type: "string"
+        description: "Nome da vacina"
+      marca:
+        type: "string"
+        description: "Marca da vacina"
+  VacinaRequest:
+    type: object
+    required:
+      - nome
+      - marca
+    properties:
       nome:
         type: "string"
         description: "Nome da vacina"

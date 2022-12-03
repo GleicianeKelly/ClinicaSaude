@@ -9,4 +9,6 @@ public interface VacinaRepository extends JpaRepository<Vacina, Long> {
 
 
     Optional<Vacina> findByNome(String nome);
+
+    boolean existsByNome(String nome);
 }
