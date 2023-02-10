@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1528fde-0c18-4ee5-964d-df5dccf9ab56" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/apiConfig/ConfigSwagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/apiConfig/ConfigSwagger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/controller/vacinaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/controller/vacinaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/repository/vacinaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/repository/vacinaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/service/vacinaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvacina/src/main/java/api/msvacina/service/vacinaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambdas/src/main/java/ProductPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/gleiciane.de.araujo/ClinicaSaude"
+    "last_opened_file_path": "C:/Users/gleiciane.de.araujo/ClinicaSaude/mspaciente"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
